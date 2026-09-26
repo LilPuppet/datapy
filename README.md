@@ -10,45 +10,6 @@ Projeto feito para o desafio **"Construa Seu Assistente Virtual Com
 Inteligência Artificial"** (DIO Lab — Bia do Futuro), adaptado para o tema
 de assistente de estudos em Python para dados.
 
-## Estrutura do repositório
-
-```
-datapy-assistant/
-├── README.md                      # este arquivo
-├── assets/                        # imagens e diagramas usados na documentação
-│   ├── README.md                  # o que colocar aqui (e como referenciar)
-│   └── arquitetura.svg            # diagrama do fluxo pergunta → busca → resposta
-├── data/                          # base de conhecimento (fonte da verdade)
-│   ├── python_basico.md
-│   ├── pandas.md
-│   ├── pre_processamento.md
-│   ├── analise_exploratoria.md
-│   ├── visualizacao.md
-│   └── machine_learning.md
-├── docs/
-│   ├── documentacao.md            # passo 1: o que o agente faz, para quem, como se comporta
-│   ├── prompts.md                 # passo 3: prompts/instruções do agente
-│   ├── perguntas.md               # roteiro de testes (24 perguntas)
-│   ├── respostas_teste.md         # respostas reais geradas nos testes
-│   ├── resultados.md              # passo 5: avaliação e métricas preenchidas
-│   └── pitch.md                   # passo 6: pitch final do projeto
-└── src/
-    └── app.py                     # passo 4: aplicação funcional (CLI)
-```
-
-Cada pasta tem uma responsabilidade clara:
-
-- **`assets/`** — só material visual (diagramas, prints de tela). Nada aqui
-  afeta o funcionamento do assistente; é puramente para ilustrar o README e
-  o pitch.
-- **`data/`** — a base de conhecimento em si. É a "fonte da verdade": se
-  você quiser ensinar o assistente sobre um novo assunto, é aqui que entra
-  um novo arquivo `.md`.
-- **`docs/`** — tudo que é texto/explicação sobre o projeto (não código):
-  documentação do agente, prompts, testes e resultados, pitch.
-- **`src/`** — o código da aplicação. Se o projeto crescesse, novos módulos
-  Python (ex.: uma interface web) entrariam aqui.
-
 ## Como rodar
 
 Requer apenas Python 3.10+ (sem dependências externas no modo padrão).
