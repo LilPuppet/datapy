@@ -10,8 +10,6 @@ Projeto feito para o desafio **"Construa Seu Assistente Virtual Com
 Inteligência Artificial"** (DIO Lab — Bia do Futuro), adaptado para o tema
 de assistente de estudos em Python para dados.
 
-![Arquitetura do DataPy Assistant](assets/arquitetura.svg)
-
 ## Estrutura do repositório
 
 ```
